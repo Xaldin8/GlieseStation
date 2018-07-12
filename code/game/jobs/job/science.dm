@@ -7,7 +7,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Colony Director"
+	supervisors = "the Captain"
 	selection_color = "#AD6BAD"
 	idtype = /obj/item/weapon/card/id/science/head
 	req_admin_notify = 1
@@ -21,7 +21,7 @@
 			            access_research, access_robotics, access_xenobiology, access_ai_upload, access_tech_storage,
 			            access_RC_announce, access_keycard_auth, access_tcomsat, access_gateway, access_xenoarch)
 
-	minimum_character_age = 25
+	minimum_character_age = 30
 	minimal_player_age = 14
 	ideal_character_age = 50
 
@@ -46,7 +46,7 @@
 	minimal_player_age = 14
 
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
-	alt_titles = list("Xenoarchaeologist", "Anomalist", "Phoron Researcher")
+	alt_titles = list("Xenoarchaeologist", "Anomalist", "Phoron Researcher", "Weapons Developer")
 
 /datum/job/xenobiologist
 	title = "Xenobiologist"
