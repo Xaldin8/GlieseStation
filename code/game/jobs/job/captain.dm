@@ -67,3 +67,24 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 			            access_chapel_office, access_library, access_research, access_mining, access_heads_vault, access_mining_station,
 			            access_hop, access_RC_announce, access_keycard_auth, access_gateway)
 
+/* Commenting out Secretary to stop the role from appearing in the job menu while still keeping the position for reference or future implementation - Xaldin
+/datum/job/secretary
+	title = "Command Secretary"
+	flag = BRIDGE
+	department = "Command"
+	head_position = 1
+	department_flag = CIVILIAN
+	faction = "Station"
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "command staff"
+	selection_color = "#2F2F7F"
+	idtype = /obj/item/weapon/card/id/silver/secretary
+	minimal_player_age = 5
+	economic_modifier = 7
+
+	access = list(access_heads, access_keycard_auth)
+	minimal_access = list(access_heads, access_keycard_auth)
+
+	outfit_type = /decl/hierarchy/outfit/job/secretary
+	*/
