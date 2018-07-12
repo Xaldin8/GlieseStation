@@ -1,7 +1,7 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 /datum/job/captain
-	title = "Colony Director"
+	title = "Captain"
 	flag = CAPTAIN
 	department = "Command"
 	head_position = 1
@@ -18,11 +18,10 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	minimal_player_age = 14
 	economic_modifier = 20
 
-	minimum_character_age = 25
+	minimum_character_age = 30
 	ideal_character_age = 70 // Old geezer captains ftw
 
 	outfit_type = /decl/hierarchy/outfit/job/captain
-	alt_titles = list("Site Manager", "Overseer")
 
 /*
 /datum/job/captain/equip(var/mob/living/carbon/human/H)
@@ -42,14 +41,14 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Colony Director"
+	supervisors = "the Captain"
 	selection_color = "#2F2F7F"
 	idtype = /obj/item/weapon/card/id/silver/hop
 	req_admin_notify = 1
 	minimal_player_age = 10
 	economic_modifier = 10
 
-	minimum_character_age = 25
+	minimum_character_age = 30
 	ideal_character_age = 50
 
 	outfit_type = /decl/hierarchy/outfit/job/hop
@@ -68,22 +67,3 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 			            access_chapel_office, access_library, access_research, access_mining, access_heads_vault, access_mining_station,
 			            access_hop, access_RC_announce, access_keycard_auth, access_gateway)
 
-/datum/job/secretary
-	title = "Command Secretary"
-	flag = BRIDGE
-	department = "Command"
-	head_position = 1
-	department_flag = CIVILIAN
-	faction = "Station"
-	total_positions = 2
-	spawn_positions = 2
-	supervisors = "command staff"
-	selection_color = "#2F2F7F"
-	idtype = /obj/item/weapon/card/id/silver/secretary
-	minimal_player_age = 5
-	economic_modifier = 7
-
-	access = list(access_heads, access_keycard_auth)
-	minimal_access = list(access_heads, access_keycard_auth)
-
-	outfit_type = /decl/hierarchy/outfit/job/secretary
