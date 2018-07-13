@@ -49,7 +49,7 @@
 	minimal_access = list(access_hydroponics)
 
 	outfit_type = /decl/hierarchy/outfit/job/service/gardener
-	alt_titles = list("Gardener")
+	alt_titles = list("Hydroponicist")
 
 //Cargo
 /datum/job/qm
@@ -71,7 +71,7 @@
 	ideal_character_age = 40
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
-	alt_titles = list("Supply Chief")
+	alt_titles = list("Foreman")
 
 /datum/job/cargo_tech
 	title = "Cargo Technician"
@@ -90,7 +90,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
 
 /datum/job/mining
-	title = "Shaft Miner"
+	title = "Asteroid Miner"
 	flag = MINER
 	department = "Cargo"
 	department_flag = CIVILIAN
