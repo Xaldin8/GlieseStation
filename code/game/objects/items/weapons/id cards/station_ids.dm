@@ -131,12 +131,10 @@
 	icon_state = "silver"
 	item_state = "silver_id"
 
-/* Commenting out secretary access to fix conflict with the job itself being commented out
 /obj/item/weapon/card/id/silver/secretary
 	assignment = "Command Secretary"
 	rank = "Command Secretary"
-	job_access_type = /datum/job/secretary
-*/
+	job_access_type = /datum/job/assistant
 
 /obj/item/weapon/card/id/silver/hop
 	assignment = "Head of Personnel"
@@ -151,8 +149,8 @@
 	preserve_item = 1
 
 /obj/item/weapon/card/id/gold/captain
-	assignment = "Colony Director"
-	rank = "Colony Director"
+	assignment = "Captain"
+	rank = "Captain"
 	job_access_type = /datum/job/captain
 
 /obj/item/weapon/card/id/gold/captain/spare
