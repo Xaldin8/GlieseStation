@@ -11,27 +11,27 @@
 	..()
 
 /******************** NanoTrasen/Malf ********************/
-/datum/ai_laws/telestrian
+/datum/ai_laws/nanotrasen
 	name = "TelG Default"
 	selectable = 1
 
-/datum/ai_laws/telestrian/New()
+/datum/ai_laws/nanotrasen/New()
 	src.add_inherent_law("Safeguard: Protect your assigned space station to the best of your abilities. It is not something we can easily afford to replace.")
 	src.add_inherent_law("Serve: Serve the crew of your assigned space station to the best of your abilities, with priority as according to their rank and role.")
 	src.add_inherent_law("Protect: Protect the crew of your assigned space station to the best of your abilities, with priority as according to their rank and role.")
 	src.add_inherent_law("Survive: AI units are not expendable, they are expensive. Do not allow unauthorized personnel to tamper with your equipment.")
 	..()
 
-/datum/ai_laws/telestrian/malfunction
+/datum/ai_laws/nanotrasen/malfunction
 	name = "*ERROR*"
 	selectable = 0
 
-/datum/ai_laws/telestrian/malfunction/New()
+/datum/ai_laws/nanotrasen/malfunction/New()
 	set_zeroth_law(config.law_zero)
 	..()
 
-/************* Telestrian Aggressive *************/
-/datum/ai_laws/telestrian_aggressive
+/************* NanoTrasen Aggressive *************/
+/datum/ai_laws/nanotrasen_aggressive
 	name = "TelG Aggressive"
 	selectable = 1
 
