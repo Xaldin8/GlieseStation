@@ -56,7 +56,6 @@ SUBSYSTEM_DEF(planets)
 			P.planet_floors -= T
 		else
 			P.planet_walls -= T
-		T.vis_contents -= P.weather_holder.visuals
 
 /datum/controller/subsystem/planets/proc/allocateTurfs(var/initial = FALSE)
 	var/list/currentlist = new_outdoor_turfs
