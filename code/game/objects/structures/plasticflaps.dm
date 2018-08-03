@@ -15,7 +15,7 @@
  		/mob/living/silicon/robot/drone
  		)
 
- /obj/structure/plasticflaps/attackby(obj/item/P, mob/user)
+/obj/structure/plasticflaps/attackby(obj/item/P, mob/user)
  	if(istype(P, /obj/item/weapon/wirecutters))
  		playsound(src, P.usesound, 50, 1)
  		user << "<span class='notice'>You start to cut the plastic flaps.</span>"
@@ -28,7 +28,7 @@
  	else
  		return
 
- /obj/structure/plasticflaps/CanPass(atom/A, turf/T)
+/obj/structure/plasticflaps/CanPass(atom/A, turf/T)
  	if(istype(A) && A.checkpass(PASSGLASS))
  		return prob(60)
 
@@ -50,7 +50,7 @@
 
  	return ..()
 
- /obj/structure/plasticflaps/ex_act(severity)
+/obj/structure/plasticflaps/ex_act(severity)
  	switch(severity)
  		if (1)
  			qdel(src)
@@ -61,17 +61,17 @@
  			if (prob(5))
  				qdel(src)
 
- /obj/structure/plasticflaps/mining //A specific type for mining that doesn't allow airflow because of them damn crates
+/obj/structure/plasticflaps/mining //A specific type for mining that doesn't allow airflow because of them damn crates
  	name = "airtight plastic flaps"
  	desc = "Heavy duty, airtight, plastic flaps."
 
- /obj/structure/plasticflaps/mining/New() //set the turf below the flaps to block air
+/obj/structure/plasticflaps/mining/New() //set the turf below the flaps to block air
  	var/turf/T = get_turf(loc)
  	if(T)
  		T.blocks_air = 1
  	..()
 
- /obj/structure/plasticflaps/mining/Destroy() //lazy hack to set the turf to allow air to pass if it's a simulated floor
+/obj/structure/plasticflaps/mining/Destroy() //lazy hack to set the turf to allow air to pass if it's a simulated floor
  	var/turf/T = get_turf(loc)
  	if(T && istype(T, /turf/simulated/floor))
  		T.blocks_air = 0
