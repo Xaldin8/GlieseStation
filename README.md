@@ -1,13 +1,13 @@
-# polaris
+# GlieseStation
 
-[Forums](https://forum.ss13polaris.com/) - [Wiki](http://wiki.ss13polaris.com/) - [Discord](https://discord.gg/dvUcacC)
+[Forums](https://forum.gliesestation.org/) - [Wiki](http://wiki.gliesestation.org/)
 
-Polaris is a fork of the Baystation12 code branch for the game Spacestation13.
+GlieseStation is a fork of the Baystation12 code branch for the game Spacestation13, derived from the Polaris fork.
 
 ---
 
 ### LICENSE
-The code for Polaris is licensed under the [GNU Affero General Public License](http://www.gnu.org/licenses/agpl.html) version 3, which can be found in full in LICENSE-AGPL3.txt.
+The code for GlieseStation is licensed under the [GNU Affero General Public License](http://www.gnu.org/licenses/agpl.html) version 3, which can be found in full in LICENSE-AGPL3.txt.
 
 Code with a git authorship date prior to `1420675200 +0000` (2015/01/08 00:00) are licensed under the GNU General Public License version 3, which can be found in full in LICENSE-GPL3.txt.
 
@@ -22,22 +22,7 @@ All assets including icons and sound are under a [CC BY-SA 3.0](http://creativec
 ### GETTING THE CODE
 The simplest way to obtain the code is using the github .zip feature.
 
-Click [here](https://github.com/PolarisSS13/Polaris/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
-
-The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
-
-    git clone https://github.com/PolarisSS13/Polaris.git
-
-(hint: hold down ctrl and press insert to paste into git bash)
-
-This will take a while to download, but it provides an easier method for updating.
-
-Once the repository is in place, run this command:
-```bash
-cd Polaris
-git update-index --assume-unchanged polaris.int
-```
-Now git will ignore changes to the file polaris.int.
+Click [here](https://github.com/Xaldin8/GlieseStation/archive/master.zip) to get the latest code as a .zip file, then unzip it to wherever you want.
 
 ### INSTALLATION
 
