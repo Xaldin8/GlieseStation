@@ -90,13 +90,13 @@
 
  	client_color = MATRIX_Protanopia
 
- /datum/modifier/trait/colorblind_deuteranopia
+/datum/modifier/trait/colorblind_deuteranopia
  	name = "Deuteranopia"
  	desc = "You have a form of red-green colorblindness. You cannot see greens, and have trouble distinguishing them from yellows and reds."
 
  	client_color = MATRIX_Deuteranopia
 
- /datum/modifier/trait/colorblind_tritanopia
+/datum/modifier/trait/colorblind_tritanopia
  	name = "Tritanopia"
  	desc = "You have a form of blue-yellow colorblindness. You have trouble distinguishing between blues, greens, and yellows, and see blues and violets as dim."
 
@@ -115,7 +115,7 @@
 	client_color = MATRIX_Vulp_Colorblind
 
 /datum/modifier/trait/colorblind_monochrome
- 	name = "Monochromacy"
- 	desc = "You are fully colorblind. Your condition is rare, but you can see no colors at all."
+	name = "Monochromacy"
+	desc = "You are fully colorblind. Your condition is rare, but you can see no colors at all."
 
 	client_color = MATRIX_Monochromia
