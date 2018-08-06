@@ -1965,15 +1965,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
  	name = "\improper Custodial Closet"
  	icon_state = "janitor"
 
- /area/hydroponics
+/area/hydroponics
  	name = "\improper Hydroponics"
  	icon_state = "hydro"
 
- /area/hydroponics/cafegarden
+/area/hydroponics/cafegarden
  	name = "\improper Cafeteria Garden"
  	icon_state = "cafe_garden"
 
- /area/hydroponics/garden
+/area/hydroponics/garden
  	name = "\improper Garden"
  	icon_state = "garden"
 
