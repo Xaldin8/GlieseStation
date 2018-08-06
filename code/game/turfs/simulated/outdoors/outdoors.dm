@@ -55,7 +55,7 @@ var/list/turf_edge_cache = list()
 				var/cache_key = "[T.get_edge_icon_state()]-[checkdir]"
 				if(!turf_edge_cache[cache_key])
 					var/image/I = image(icon = 'icons/turf/outdoors_edge.dmi', icon_state = "[T.get_edge_icon_state()]-edge", dir = checkdir, layer = ABOVE_TURF_LAYER)
- 					I.plane = TURF_PLANE
+					I.plane = TURF_PLANE
 					turf_edge_cache[cache_key] = I
 				add_overlay(turf_edge_cache[cache_key])
 
