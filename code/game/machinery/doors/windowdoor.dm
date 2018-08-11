@@ -280,8 +280,6 @@
 
 	return
 
-
-
 /obj/machinery/door/window/brigdoor
 	name = "secure door"
 	icon = 'icons/obj/doors/windoor.dmi'
